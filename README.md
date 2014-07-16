@@ -39,4 +39,4 @@ If you want call [api.worldoftanks.ru/wot/account/list](http://ru.wargaming.net/
 
 Copyright (c) 2014 Ivan Bondarenko. See [LICENSE][] for details.
 
-[license]: MIT-LICENSE.md
+[license]: MIT-LICENSE
