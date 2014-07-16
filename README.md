@@ -1,5 +1,7 @@
 WotApi
 =======
+[![Gem Version](https://badge.fury.io/rb/wot_api_ru.png)](http://badge.fury.io/rb/wot_api_ru)
+[![Code Climate](https://codeclimate.com/github/shved270189/wot_api.png)](https://codeclimate.com/github/shved270189/wot_api)
 
 Ruby gem for [Wargaming.net Public API](http://ru.wargaming.net/developers/documentation/guide/getting-started/)
 
