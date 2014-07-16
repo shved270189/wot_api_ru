@@ -8,7 +8,8 @@ Ruby gem for [Wargaming.net Public API](http://ru.wargaming.net/developers/docum
 WotApi works with Rails 4.1 onwards. You can add it to your Gemfile with:
 
 ```ruby
-gem 'wot_api_ru', github: 'shved270189/wot_api', :tag => 'v0.0.1'
+gem 'wot_api_ru', github: 'shved270189/wot_api' # from GitHub
+gem 'wot_api_ru' # from rubygems
 ```
 
 Run the bundle command to install it.

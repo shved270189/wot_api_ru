@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.extra_rdoc_files = ["README.md"]
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files         = `git ls-files -z`.split("\x0")
 
   s.add_dependency 'rails', '~> 4.1'
   s.add_dependency "rest_client", '~> 1.7', '>= 1.7.3'
