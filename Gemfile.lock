@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wot_api (0.0.1)
+    wot_api_ru (0.0.1)
       rails (~> 4.1)
       rest_client (~> 1.7, >= 1.7.3)
 
@@ -111,4 +111,4 @@ PLATFORMS
 DEPENDENCIES
   rspec-rails (~> 3.0, >= 3.0.1)
   sqlite3 (~> 1.3, >= 1.3.9)
-  wot_api!
+  wot_api_ru!
