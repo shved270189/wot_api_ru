@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+- 2.1.2
+
+script: bundle exec rspec
+install:
+  - "bundle install"
+branches:
+  only:
+    - 'master'
+notifications:
+  email: false

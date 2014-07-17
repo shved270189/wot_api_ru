@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     wot_api_ru (0.0.1)
-      rails (~> 4.1)
+      rails (~> 4.1, >= 4.1.4)
       rest_client (~> 1.7, >= 1.7.3)
 
 GEM
