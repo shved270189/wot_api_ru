@@ -1,4 +1,4 @@
-module WotApi
+module WotApiRu
   module Constants
 
     HOST = 'https://api.worldoftanks.ru/wot/'

@@ -1,17 +1,17 @@
-WotApi
+WotApiRu
 =======
 [![Gem Version](https://badge.fury.io/rb/wot_api_ru.png)](http://badge.fury.io/rb/wot_api_ru)
 [![Code Climate](https://codeclimate.com/github/shved270189/wot_api_ru.png)](https://codeclimate.com/github/shved270189/wot_api_ru)
 [![Dependency Status](https://gemnasium.com/shved270189/wot_api_ru.svg)](https://gemnasium.com/shved270189/wot_api_ru)
 [![Build Status](https://travis-ci.org/shved270189/wot_api_ru.svg?branch=master)](https://travis-ci.org/shved270189/wot_api_ru)
-[![Coverage Status](https://coveralls.io/repos/shved270189/wot_api_ru/badge.png)](https://coveralls.io/r/shved270189/wot_api_ru)
+[![Coverage Status](https://coveralls.io/repos/shved270189/wot_api_ru/badge.png?branch=master)](https://coveralls.io/r/shved270189/wot_api_ru?branch=master)
 [![PullReview stats](https://www.pullreview.com/github/shved270189/wot_api_ru/badges/master.svg?)](https://www.pullreview.com/github/shved270189/wot_api_ru/reviews/master)
 
 Ruby gem for [Wargaming.net Public API](http://ru.wargaming.net/developers/documentation/guide/getting-started/)
 
 ## Getting started
 
-WotApi works with Rails 4.1 onwards. You can add it to your Gemfile with:
+WotApiRu works with Rails 4.1 onwards. You can add it to your Gemfile with:
 
 ```ruby
 gem 'wot_api_ru', github: 'shved270189/wot_api_ru' # from GitHub
@@ -20,27 +20,27 @@ gem 'wot_api_ru' # from rubygems
 
 Run the bundle command to install it.
 
-After you install WotApi and add it to your Gemfile, you need to run the generator:
+After you install WotApiRu and add it to your Gemfile, you need to run the generator:
 
 ```console
-rails generate wot_api:install
+rails generate wot_api_ru:install
 ```
 
-The generator will install an initializer. Set your [application id](https://ru.wargaming.net/developers/applications/) in config/initializers/wot_api.rb :
+The generator will install an initializer. Set your [application id](https://ru.wargaming.net/developers/applications/) in config/initializers/wot_api_ru.rb :
 
 ```ruby
 # Set your application Wargaming key here!
-WotApi::Settings[:application_id] = ENV['WOT_API_APP_ID']
+WotApiRu::Settings[:application_id] = ENV['WOT_API_RU_APP_ID']
 ```
 
-After this steps you can create WotApi client and call to Wargaming.net Public API:
+After this steps you can create WotApiRu client and call to Wargaming.net Public API:
 
 ```ruby
-client = WotApi::Client.new
+client = WotApiRu::Client.new
 client.account_list(search: 'saltovka')
 ```
 All API's method you can see on [API dicumentation](http://ru.wargaming.net/developers/api_reference).
-If you want call [api.worldoftanks.ru/wot/account/list](http://ru.wargaming.net/developers/api_reference/wot/account/list/) then you can use WotApi::Client#account_list with parameters of API etc.
+If you want call [api.worldoftanks.ru/wot/account/list](http://ru.wargaming.net/developers/api_reference/wot/account/list/) then you can use WotApiRu::Client#account_list with parameters of API etc.
 
 ## License
 

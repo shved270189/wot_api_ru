@@ -9,7 +9,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "wot_api"
+require "wot_api_ru"
 
 module Dummy
   class Application < Rails::Application

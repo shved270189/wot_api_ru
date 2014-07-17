@@ -1,4 +1,4 @@
-module WotApi
+module WotApiRu
   class Settings
 
     @@options = Hash.new
