@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = WotApi::VERSION
   s.authors     = ["Ivan Bondarenko"]
   s.email       = ["bondarenko.dev@gmail.com"]
-  s.homepage    = "https://github.com/shved270189/wot_api"
+  s.homepage    = "https://github.com/shved270189/wot_api_ru"
   s.summary     = "Wargaming.net Public API."
   s.description = "Gem for Wargaming.net Public API http://ru.wargaming.net/developers/api_reference ."
   s.license     = "MIT"

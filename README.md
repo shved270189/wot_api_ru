@@ -1,11 +1,11 @@
 WotApi
 =======
 [![Gem Version](https://badge.fury.io/rb/wot_api_ru.png)](http://badge.fury.io/rb/wot_api_ru)
-[![Code Climate](https://codeclimate.com/github/shved270189/wot_api.png)](https://codeclimate.com/github/shved270189/wot_api)
-[![Dependency Status](https://gemnasium.com/shved270189/wot_api.svg)](https://gemnasium.com/shved270189/wot_api)
-[![Build Status](https://travis-ci.org/shved270189/wot_api.svg?branch=master)](https://travis-ci.org/shved270189/wot_api)
-[![Coverage Status](https://coveralls.io/repos/shved270189/wot_api/badge.png)](https://coveralls.io/r/shved270189/wot_api)
-[![PullReview stats](https://www.pullreview.com/github/shved270189/wot_api/badges/master.svg?)](https://www.pullreview.com/github/shved270189/wot_api/reviews/master)
+[![Code Climate](https://codeclimate.com/github/shved270189/wot_api_ru.png)](https://codeclimate.com/github/shved270189/wot_api_ru)
+[![Dependency Status](https://gemnasium.com/shved270189/wot_api_ru.svg)](https://gemnasium.com/shved270189/wot_api_ru)
+[![Build Status](https://travis-ci.org/shved270189/wot_api_ru.svg?branch=master)](https://travis-ci.org/shved270189/wot_api_ru)
+[![Coverage Status](https://coveralls.io/repos/shved270189/wot_api_ru/badge.png)](https://coveralls.io/r/shved270189/wot_api_ru)
+[![PullReview stats](https://www.pullreview.com/github/shved270189/wot_api_ru/badges/master.svg?)](https://www.pullreview.com/github/shved270189/wot_api_ru/reviews/master)
 
 Ruby gem for [Wargaming.net Public API](http://ru.wargaming.net/developers/documentation/guide/getting-started/)
 
@@ -14,7 +14,7 @@ Ruby gem for [Wargaming.net Public API](http://ru.wargaming.net/developers/docum
 WotApi works with Rails 4.1 onwards. You can add it to your Gemfile with:
 
 ```ruby
-gem 'wot_api_ru', github: 'shved270189/wot_api' # from GitHub
+gem 'wot_api_ru', github: 'shved270189/wot_api_ru' # from GitHub
 gem 'wot_api_ru' # from rubygems
 ```
 
