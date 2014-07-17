@@ -4,6 +4,8 @@ WotApi
 [![Code Climate](https://codeclimate.com/github/shved270189/wot_api.png)](https://codeclimate.com/github/shved270189/wot_api)
 [![Dependency Status](https://gemnasium.com/shved270189/wot_api.svg)](https://gemnasium.com/shved270189/wot_api)
 [![Build Status](https://travis-ci.org/shved270189/wot_api.svg?branch=master)](https://travis-ci.org/shved270189/wot_api)
+[![Coverage Status](https://coveralls.io/repos/shved270189/wot_api/badge.png)](https://coveralls.io/r/shved270189/wot_api)
+[![PullReview stats](https://www.pullreview.com/github/shved270189/wot_api/badges/master.svg?)](https://www.pullreview.com/github/shved270189/wot_api/reviews/master)
 
 Ruby gem for [Wargaming.net Public API](http://ru.wargaming.net/developers/documentation/guide/getting-started/)
 
