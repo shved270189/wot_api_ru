@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.files         = `git ls-files -z`.split("\x0")
 
-  s.add_dependency 'rails', '~> 4.1'
+  s.add_dependency 'rails', '~> 4.1', '>= 4.1.4'
   s.add_dependency "rest_client", '~> 1.7', '>= 1.7.3'
 
   s.add_development_dependency "sqlite3", '~> 1.3', '>= 1.3.9'
