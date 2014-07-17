@@ -1,5 +1,4 @@
-require 'spec_helper'
-require 'wot_api_ru'
+require 'rails_helper'
 
 describe WotApiRu::Settings do
   it { expect(WotApiRu::Settings.respond_to?('[]')).to eq true }

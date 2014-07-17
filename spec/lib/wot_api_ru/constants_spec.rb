@@ -1,5 +1,4 @@
-require 'spec_helper'
-require 'wot_api_ru'
+require 'rails_helper'
 
 describe WotApiRu::Constants do
   it { expect(WotApiRu::Constants::HOST).to eq 'https://api.worldoftanks.ru/wot/' }
