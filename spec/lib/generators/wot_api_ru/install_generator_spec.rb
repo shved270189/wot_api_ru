@@ -3,7 +3,7 @@ require 'generator_spec'
 
 describe WotApiRu::InstallGenerator do
   let(:wot_api_ru_gen) { WotApiRu::InstallGenerator.new }
-  destination File.expand_path("../../tmp", __FILE__)
+  destination File.expand_path("../../../../dummy/tmp/spec", __FILE__)
 
   before(:all) do
     prepare_destination
