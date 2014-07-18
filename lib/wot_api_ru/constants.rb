@@ -1,7 +1,11 @@
 module WotApiRu
+  # @author Ivan Bondarenko
+  # Class of application constants
   module Constants
+    # Host for response to Wargaming.net Public API
     HOST = 'https://api.worldoftanks.ru/wot/'
 
+    # Hash of pathes to Wargaming.net Public API methods
     PATH = {
         # All pathes require: application_id
 
