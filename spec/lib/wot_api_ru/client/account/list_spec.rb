@@ -5,8 +5,8 @@ describe WotApiRu::Client do
 
   context 'account' do
     context 'list' do
-      let(:params_right) { {search: 'saltovka'} }
-      let(:params_wrong) { {search: 'ss'} }
+      let(:params_right) { { search: 'saltovka' } }
+      let(:params_wrong) { { search: 'ss' } }
       let(:client_right) { client.account_list(params_right) }
       let(:client_wrong) { client.account_list(params_wrong) }
       let(:client_without_params) { client.account_list() }

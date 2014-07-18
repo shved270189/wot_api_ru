@@ -2,7 +2,7 @@ require 'rails_helper'
 require 'generator_spec'
 
 describe WotApiRu::InstallGenerator do
-  let(:wot_api_ru_gen) {WotApiRu::InstallGenerator.new}
+  let(:wot_api_ru_gen) { WotApiRu::InstallGenerator.new }
   destination File.expand_path("../../tmp", __FILE__)
 
   before(:all) do
