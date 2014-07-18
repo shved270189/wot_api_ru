@@ -25,4 +25,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec-rails", '~> 3.0', '>= 3.0.1'
   s.add_development_dependency "coveralls", '~> 0.7', '>= 0.7.0'
   s.add_development_dependency "generator_spec", '~> 0.9', '>= 0.9.2'
+  s.add_development_dependency "guard-rspec", '~> 4.2', '>= 4.2.10'
 end

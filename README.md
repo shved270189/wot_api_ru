@@ -2,9 +2,10 @@ WotApiRu
 =======
 [![Gem Version](https://badge.fury.io/rb/wot_api_ru.svg)](http://badge.fury.io/rb/wot_api_ru)
 [![Code Climate](https://codeclimate.com/github/shved270189/wot_api_ru.png)](https://codeclimate.com/github/shved270189/wot_api_ru)
-[![Dependency Status](https://gemnasium.com/shved270189/wot_api_ru.svg)](https://gemnasium.com/shved270189/wot_api_ru)
 [![Build Status](https://travis-ci.org/shved270189/wot_api_ru.svg?branch=master)](https://travis-ci.org/shved270189/wot_api_ru)
 [![Coverage Status](https://img.shields.io/coveralls/shved270189/wot_api_ru.svg)](https://coveralls.io/r/shved270189/wot_api_ru?branch=master)
+[![Inline docs](http://inch-ci.org/github/shved270189/wot_api_ru.svg?branch=master)](http://inch-ci.org/github/shved270189/wot_api_ru)
+[![Dependency Status](https://gemnasium.com/shved270189/wot_api_ru.svg)](https://gemnasium.com/shved270189/wot_api_ru)
 [![PullReview stats](https://www.pullreview.com/github/shved270189/wot_api_ru/badges/master.svg?)](https://www.pullreview.com/github/shved270189/wot_api_ru/reviews/master)
 
 Ruby gem for [Wargaming.net Public API](http://ru.wargaming.net/developers/documentation/guide/getting-started/)
