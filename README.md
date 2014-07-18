@@ -39,7 +39,7 @@ After this steps you can create WotApiRu client and call to Wargaming.net Public
 client = WotApiRu::Client.new
 client.account_list(search: 'saltovka')
 ```
-All API's method you can see on [API dicumentation](http://ru.wargaming.net/developers/api_reference).
+All API's method you can see on [API documentation](http://ru.wargaming.net/developers/api_reference).
 If you want call [api.worldoftanks.ru/wot/account/list](http://ru.wargaming.net/developers/api_reference/wot/account/list/) then you can use WotApiRu::Client#account_list with parameters of API etc.
 
 ## License
