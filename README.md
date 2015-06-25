@@ -1,5 +1,7 @@
 WotApiRu
 =======
+
+[![Join the chat at https://gitter.im/shved270189/wot_api_ru](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/shved270189/wot_api_ru?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Gem Version](https://badge.fury.io/rb/wot_api_ru.svg)](http://badge.fury.io/rb/wot_api_ru)
 [![Code Climate](https://codeclimate.com/github/shved270189/wot_api_ru.png)](https://codeclimate.com/github/shved270189/wot_api_ru)
 [![Build Status](https://travis-ci.org/shved270189/wot_api_ru.svg?branch=master)](https://travis-ci.org/shved270189/wot_api_ru)
